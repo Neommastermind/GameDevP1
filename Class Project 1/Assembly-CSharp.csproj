@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Assets\Scripts\CameraShake.cs" />
+     <Compile Include="Assets\Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Assets\Scripts\Rotator.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Matthew Jensen/Documents/GitHub/GameDevP1/Class Project 1/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
