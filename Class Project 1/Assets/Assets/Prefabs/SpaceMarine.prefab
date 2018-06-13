@@ -164,7 +164,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4812138477753678}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: World Centre
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 4138155249182134}
   - component: {fileID: 33602751813468916}
   - component: {fileID: 23076210471792654}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Helmet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4639178090710048}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +307,7 @@ GameObject:
   - component: {fileID: 4424190865490396}
   - component: {fileID: 33875822720673046}
   - component: {fileID: 23706959402528510}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Eyebrow.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -405,6 +405,22 @@ GameObject:
   - component: {fileID: 4198696993735042}
   m_Layer: 0
   m_Name: Knee.R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1287373165319342
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4584426728262456}
+  - component: {fileID: 114615812573204248}
+  m_Layer: 0
+  m_Name: Launcher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -633,7 +649,7 @@ GameObject:
   - component: {fileID: 4570960224050132}
   - component: {fileID: 33528203535408994}
   - component: {fileID: 23105328635867424}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Eyebrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -663,7 +679,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4332865813351232}
-  m_Layer: 0
+  - component: {fileID: 143217604734401462}
+  - component: {fileID: 114660947983941246}
+  m_Layer: 9
   m_Name: SpaceMarine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -680,7 +698,7 @@ GameObject:
   - component: {fileID: 4604100887206068}
   - component: {fileID: 33614393583019746}
   - component: {fileID: 23121270738303926}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Eyebrow under.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -744,7 +762,7 @@ GameObject:
   - component: {fileID: 4603646943689220}
   - component: {fileID: 33249298667218408}
   - component: {fileID: 23189146276519852}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Chin Guard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -776,7 +794,7 @@ GameObject:
   - component: {fileID: 4245326133717374}
   - component: {fileID: 33746303968407300}
   - component: {fileID: 23863678947295200}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cheek detail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -936,7 +954,7 @@ GameObject:
   - component: {fileID: 4148964784453368}
   - component: {fileID: 33729655071879914}
   - component: {fileID: 23373126132293456}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: head inside bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1049,7 +1067,7 @@ GameObject:
   - component: {fileID: 4437125215876608}
   - component: {fileID: 33335062830202098}
   - component: {fileID: 23789608505975498}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Eyebrow under
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1065,6 +1083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4137214956245752}
   - component: {fileID: 95040748632257380}
+  - component: {fileID: 54185254097429882}
   m_Layer: 0
   m_Name: BobbleMarine-Body
   m_TagString: Untagged
@@ -1217,7 +1236,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4192101724660536}
-  m_Layer: 0
+  - component: {fileID: 54859391698466846}
+  - component: {fileID: 135893750442895838}
+  - component: {fileID: 59135628707659954}
+  m_Layer: 10
   m_Name: BobbleMarine-Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1311,7 +1333,7 @@ GameObject:
   - component: {fileID: 4771988365758150}
   - component: {fileID: 33950814096658428}
   - component: {fileID: 23064477030118754}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: mohawk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1328,7 +1350,7 @@ GameObject:
   - component: {fileID: 4651450953252232}
   - component: {fileID: 33179706189659982}
   - component: {fileID: 23642808449522898}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Mouthpiece
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1470,7 +1492,7 @@ Transform:
   - {fileID: 4241716674823206}
   - {fileID: 4986134412468904}
   m_Father: {fileID: 4332865813351232}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4138155249182134
 Transform:
@@ -1601,7 +1623,7 @@ Transform:
   - {fileID: 4639178090710048}
   - {fileID: 4812138477753678}
   m_Father: {fileID: 4332865813351232}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4195284480475896
 Transform:
@@ -1830,8 +1852,8 @@ Transform:
   m_LocalPosition: {x: -4.9, y: 12.54, z: 5.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4137214956245752}
   - {fileID: 4192101724660536}
+  - {fileID: 4137214956245752}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2025,6 +2047,19 @@ Transform:
   - {fileID: 4437125215876608}
   m_Father: {fileID: 4138155249182134}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4584426728262456
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1287373165319342}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4856438528204682}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4586924606689232
 Transform:
@@ -2377,6 +2412,7 @@ Transform:
   - {fileID: 4938539266490186}
   - {fileID: 4176704184730618}
   - {fileID: 4305846922816648}
+  - {fileID: 4584426728262456}
   m_Father: {fileID: 4145268207156770}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4139,6 +4175,70 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1396717850815582}
   m_Mesh: {fileID: 4300010, guid: 153dc455601add1498736b508413b2d1, type: 3}
+--- !u!54 &54185254097429882
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1734050324031424}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!54 &54859391698466846
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868077832630306}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!59 &59135628707659954
+HingeJoint:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868077832630306}
+  m_ConnectedBody: {fileID: 54185254097429882}
+  m_Anchor: {x: 0, y: 0, z: 0}
+  m_Axis: {x: 0, y: 0, z: 1}
+  m_AutoConfigureConnectedAnchor: 0
+  m_ConnectedAnchor: {x: -2.06, y: 6.16, z: 0.16}
+  m_UseSpring: 0
+  m_Spring:
+    spring: 0
+    damper: 0
+    targetPosition: 0
+  m_UseMotor: 0
+  m_Motor:
+    targetVelocity: 0
+    force: 0
+    freeSpin: 0
+  m_UseLimits: 1
+  m_Limits:
+    min: -25
+    max: 25
+    bounciness: 1
+    bounceMinVelocity: 0.2
+    contactDistance: 0
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!95 &95040748632257380
 Animator:
   serializedVersion: 3
@@ -4157,3 +4257,62 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114615812573204248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1287373165319342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57eb08cd16872874daa6d08f0667e5e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 1265263322437174, guid: 679321378870722408be64d13cf313f3,
+    type: 2}
+  launchPosition: {fileID: 4584426728262456}
+--- !u!114 &114660947983941246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1516284511273800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39a1852738f468c449cbabc82d85764f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 50
+  head: {fileID: 54859391698466846}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 16384
+--- !u!135 &135893750442895838
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868077832630306}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.36
+  m_Center: {x: 0.41, y: 2.7, z: -0.21}
+--- !u!143 &143217604734401462
+CharacterController:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1516284511273800}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 11.08
+  m_Radius: 5.17
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: -1.82, y: 6.53, z: 0.7}
