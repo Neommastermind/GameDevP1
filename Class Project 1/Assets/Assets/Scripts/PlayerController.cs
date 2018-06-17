@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
+	public Animator bodyAnimator;
 	public float moveSpeed = 50.0f;
 	public Rigidbody head;
 	public LayerMask layerMask;
@@ -28,10 +29,11 @@ public class PlayerController : MonoBehaviour {
 			Input.GetAxis ("Vertical"));
 
 		if (moveDirection == Vector3.zero) {
-
+			bodyAnimator.SetBool ("IsMoving", false);
 		} 
 		else {
 			head.AddForce (transform.right * 150, ForceMode.Acceleration);
+			bodyAnimator.SetBool ("IsMoving", true);
 		}
 
 		RaycastHit hit;

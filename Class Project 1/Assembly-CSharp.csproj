@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Assets\Scripts\Alien.cs" />
+     <Compile Include="Assets\Assets\Scripts\ArenaWall.cs" />
      <Compile Include="Assets\Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Assets\Scripts\CameraMount.cs" />
      <Compile Include="Assets\Assets\Scripts\CameraShake.cs" />
@@ -59,6 +60,8 @@
      <Compile Include="Assets\Assets\Scripts\Gun.cs" />
      <Compile Include="Assets\Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Assets\Scripts\Rotator.cs" />
+     <Compile Include="Assets\Assets\Scripts\SoundManager.cs" />
+     <Compile Include="Assets\Assets\Scripts\Upgrade.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Matthew Jensen/Documents/GitHub/GameDevP1/Class Project 1/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
